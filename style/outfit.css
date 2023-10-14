@@ -1,0 +1,26 @@
+.outfit-name{
+    padding: 35px 34px;
+    border-top: 1px solid var(--boder-color);
+    border-bottom: 1px solid var(--boder-color);
+    text-align: center;
+}
+.outfit-description{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #e1b773;
+}
+.outfit_name{
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+.outfit-main_section{
+    height: 3220px;
+    overflow: scroll;   
+}
+.outfit-main_section::-webkit-scrollbar{
+    width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.outfit-main_section::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0);
+}

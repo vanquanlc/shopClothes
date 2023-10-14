@@ -1,0 +1,67 @@
+{
+  "cardProduct": [
+    {
+      "id": "card_1",
+      "name": "TUNIC DRESS",
+      "type": "DRESSES",
+      "price": "$40",
+      "image": "./image/Tunic_dress.jpg"
+    },
+    {
+      "id": "card_2",
+      "name": "DENIM BAG",
+      "type": "ACCESSORIES",
+      "price": "$40",
+      "image": "./image/Dnim_bag.jpg"
+    },
+    {
+      "id": "card_3",
+      "name": "sKINNY JEANS",
+      "type": "DRESSES",
+      "price": "$36",
+      "image": "./image/Skinny_jeans.jpg"
+    },
+    {
+      "id": "card_4",
+      "name": "WOOD HEAL",
+      "type": "ACCESSORIES",
+      "price": "$67",
+      "image": "./image/Wood_heel.jpg"
+    },
+    {
+      "id": "card_5",
+      "name": "BELTED DRESS",
+      "type": "DRESSES",
+      "price": "$34",
+      "image": "./image/Belted_dress.jpg"
+    },
+    {
+      "id": "card_6",
+      "name": "ISABELLE SKIRT",
+      "type": "PAINS & JEANS",
+      "price": "$49",
+      "image": "./image/Isabelle_skirt.jpg"
+    },
+    {
+      "id": "card_7",
+      "name": "CURZON CULOTTE",
+      "type": "DRESSES",
+      "price": "$32",
+      "image": "./image/Curzon_culotte.jpg"
+    },
+    {
+      "id": "card_8",
+      "name": "FLORENCE POINT",
+      "type": "ACCESSORIES",
+      "price": "$55",
+      "image": "./image/Florence_point.jpg"
+    },
+    {
+      "id": "card_9",
+      "name": "TILLY BAG",
+      "type": "ACCESSORIES",
+      "price": "$42",
+      "image": "./image/TiLLy_bag.jpg"
+    }
+  ]
+}

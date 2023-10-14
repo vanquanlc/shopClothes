@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Fastion - Outfits</title>
+    <link rel="icon" href="./image/logo.webp" type="image/x-icon">
+
+    <!-- link to file style and font -->
+    <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/outfit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <div class="fill" id="fill"></div>
+        <header class="header" id="header">
+            <nav class="header__navbar">
+                <div class="header__menu">
+                    <i class="header__menu--btn fa-solid fa-bars"></i>
+                </div>
+                 <div  class="header__navbar-list--menu" id="header__navbar-list--menu">
+                    <i id="close" class="fa-solid fa-rectangle-xmark"></i>
+                    <img src="./image/logo.webp" alt="" class="header__navbar-list--logo">
+                 </div>
+
+
+                <div class="header__social">
+                    <a href="https://www.facebook.com/quan.lovan.9461/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/Van_Quan_03"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/lovanquan788/"><i class="fa-brands fa-instagram"></i></a>                   
+                    <a href="https://www.tiktok.com/@quanlc25"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+    
+    
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item header__navbar-item--mobile"><a class="nav-link" href="./index.html">HOME</a></li>
+                    <li class="header__navbar-item header__navbar-item--mobile"><a class="nav-link" href="#">ABOUT ME</a></li>
+                    <li class="home-shop header__navbar-item header__navbar-item--mobile"><a class="nav-link" href="./shop.html">SHOP<i class="fa-solid fa-chevron-down down-icon"></i></a>
+                        <ul class="home-shop__list">
+                            <li class="home-shop__list--item"><a class="nav-child-link" href="./shop.html">THE SHOP</a></li>
+                            <li class="home-shop__list--item">ACCOUNT</li>
+                            <li class="home-shop__list--item">CHECKOUT</li>
+                        </ul>
+                    </li>
+                    <li class="home-fashion header__navbar-item header__navbar-item--mobile"><a class="nav-link" href="#">FASTION<i class="fa-solid fa-chevron-down down-icon"></i></a>
+                        <section class="home-fashion__section">
+                            <div class="grid">
+                                    <ul class="grid__row home-fastion__list">
+                                        <ul class="grid__column-2-4 home-fashion__menu ">
+                                            <li class="home-fashion__menu--item">BEAUTY</li>
+                                            <li class="home-fashion__menu--item">INTERIOR</li>
+                                            <li class="home-fashion__menu--item">OUTFITS</li>
+                                            <li class="home-fashion__menu--item">VIEW ALL</li>
+                                         </ul> 
+                                        <a href="" class="grid__column-2-4 home-fashion__link-item">
+                                            <li class=" home-fashion__list--item">
+                                                <img src="./image/AGuidetoGettingTheMostComfyLook.jpg" alt="" class="home-fashion__item-img">
+                                                <h3 class="home-fashion__item-tittle">A Guide to Getting The Most Comfy Look</h3>
+                                                <span class="home-fashion__item-date">May 15, 2016</span>
+                                            </li> 
+                                        </a>
+                                        <a href="" class="grid__column-2-4 home-fashion__link-item">
+                                            <li class=" home-fashion__list--item">
+                                                <img src="./image/ComfyArtisticDresstoTryThisSeason.jpg" alt="" class="home-fashion__item-img">
+                                                <h3 class="home-fashion__item-tittle">Comfy Artistic Dress to Try This Season</h3>
+                                                <span class="home-fashion__item-date">May 15, 2016</span>
+                                            </li>
+                                         </a>
+                                        <a href="" class="grid__column-2-4 home-fashion__link-item">
+                                            <li class=" home-fashion__list--item">
+                                                <img src="./image/LastMinutePartyLookThatLooksGreat.jpg" alt="" class="home-fashion__item-img">
+                                                <h3 class="home-fashion__item-tittle">Last Minute Party Look That Looks Great</h3>
+                                                <span class="home-fashion__item-date">May 15, 2016</span>
+                                            </li> 
+                                        </a>
+                                        <a href="" class="grid__column-2-4 home-fashion__link-item">
+                                            <li class=" home-fashion__list--item">
+                                                <img src="./image/HolyGrailColognMustHaveForGirls.jpg" alt="" class="home-fashion__item-img">
+                                                <h3 class="home-fashion__item-tittle">Holy Grail Cologne Must Have For Girls</h3>
+                                                <span class="home-fashion__item-date">May 15, 2016</span>
+                                            </li> 
+                                        </a>
+                                    </ul>
+                            </div>
+                        </section>
+                    </li>
+                    <li class="home-outfits header__navbar-item header__navbar-item--mobile"><a class="nav-link" href="./outfit.html">OUTFITS<i class="fa-solid fa-chevron-down down-icon chevron-down__outfits"></i></a>
+                        <section class="home-outfits__section">
+                            <div class="grid">
+                                    <ul class="grid__row home-fashion__list">
+                                        <a href="" class="grid__column-2-4 home-outfits__link-item">
+                                            <li class=" home-fashion__list--item">
+                                                <img src="./image/LastMinutePartyLookThatLooksGreat.jpg" alt="" class="home-fashion__item-img">
+                                                <h3 class="home-fashion__item-tittle">Last Minute Party Look That Looks Great</h3>
+                                                <span class="home-fashion__item-date">May 15, 2016</span>
+                                            </li> 
+                                        </a>
+                                        <a href="" class="grid__column-2-4 home-outfits__link-item">
+                                            <li class=" home-fashion__list--item">
+                                                <img src="./image/AGuidetoGettingTheMostComfyLook.jpg" alt="" class="home-fashion__item-img">
+                                                <h3 class="home-fashion__item-tittle">A Guide to Getting The Most Comfy Look</h3>
+                                                <span class="home-fashion__item-date">May 15, 2016</span>
+                                            </li> 
+                                        </a>
+                                        <a href="" class="grid__column-2-4 home-outfits__link-item">
+                                            <li class=" home-fashion__list--item">
+                                                <img src="./image/ComfyArtisticDresstoTryThisSeason.jpg" alt="" class="home-fashion__item-img">
+                                                <h3 class="home-fashion__item-tittle">Comfy Artistic Dress to Try This Season</h3>
+                                                <span class="home-fashion__item-date">May 15, 2016</span>
+                                            </li>
+                                         </a>
+                                        <a href="" class="grid__column-2-4 home-outfits__link-item">
+                                            <li class=" home-fashion__list--item">
+                                                <img src="./image/LastMinutePartyLookThatLooksGreat.jpg" alt="" class="home-fashion__item-img">
+                                                <h3 class="home-fashion__item-tittle">Last Minute Party Look That Looks Great</h3>
+                                                <span class="home-fashion__item-date">May 15, 2016</span>
+                                            </li> 
+                                        </a>
+                                        <a href="" class="grid__column-2-4 home-outfits__link-item">
+                                            <li class=" home-fashion__list--item">
+                                                <img src="./image/HolyGrailColognMustHaveForGirls.jpg" alt="" class="home-fashion__item-img">
+                                                <h3 class="home-fashion__item-tittle">Holy Grail Cologne Must Have For Girls</h3>
+                                                <span class="home-fashion__item-date">May 15, 2016</span>
+                                            </li> 
+                                        </a>
+                                    </ul>
+                            </div>
+                        </section>
+                    </li>
+                    <li class="home-contact header__navbar-item header__navbar-item--mobile">CONTACT<i class="fa-solid fa-chevron-down down-icon"></i>
+                        <section class="contact-section">
+                            <a href="tel:0789009862">0789009862</a> <br>
+                            <a href="tel:0379404699">0379404699</a> <br>
+                            <a href=""><i class="fa-brands fa-telegram"></i> Telegram</a>
+                        </section>
+                    </li>
+                </ul>
+    
+                <section class="header__navbar--section-search">
+                    <div class="header__search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" class="header__search--input" placeholder="SEARCH">
+                    </div>
+                    <div class="header__cart">
+                        <i class="header__cart--icon fa-solid fa-cart-shopping"></i>
+                        <span class="header__cart--amount">0</span>
+                    </div>
+                </section>
+            </nav>
+
+            <div class="header__logo">
+                <img class="img-logo" src="./image/logo.webp" alt="">
+            </div>
+        </header>
+
+        <main class="outfit-section">
+            <section class="outfit-name">
+                <span class="outfit-description">CATEGORY</span>
+                <h1 class="outfit_name">OUTFITS</h1>
+            </section>
+
+            <div class="outfit-main">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-8 outfit-main_section">
+                            <div class="tag-fastion__outfits">
+                                <div class="tag-fastion__header">
+                                    <h3 class="tag-fastion__trademark"><i>In </i>FASTION</h3>
+                                    <h1 class="tag-fastion__tittle">
+                                        Modern And Minimal Living Room Decor
+                                    </h1>
+                                    <div class="tag-fastion__description">
+                                        <span class="tag-fastion__description--date">MAY 15, 2016</span>
+                                        <span class="tag-fastion__description--comments">3 COMMENTS</span>
+                                    </div>
+                                </div>
+    
+                                <a href="#" class="tag-fastion__link-img">
+                                    <img src="./image/outfit-mordernandMinimalLivingRoomDecor.jpg" alt="" class="tag-fastion__img">
+                                </a>
+                                <div class="tag-fastion__post-content">
+                                    <p class="paragraph">
+                                        More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                                         innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly 
+                                         shot tortoise inside opaquely. Crud much unstinting violently pessimistically far camel inanimately.
+                                    </p>
+                                    <p class="paragraph">
+                                        Coquettish darn pernicious foresaw therefore much amongst lingeringly
+                                         shed much due antagonistically alongside so then more and about turgid
+                                          wrote so stunningly this that much slew.
+                                    </p>
+                                </div>
+    
+                                <div class="tag-fastion__btn">
+                                    <button class="btn tag-fastion__btn-more">
+                                        READ MORE
+                                    </button>
+                                </div>
+
+                            </div>
+
+
+                            <div class="tag-fastion__outfits">
+                                <div class="tag-fastion__header">
+                                    <h3 class="tag-fastion__trademark"><i>In </i>FASTION</h3>
+                                    <h1 class="tag-fastion__tittle">
+                                        Your Guide to Wearing The Acc Trends
+                                    </h1>
+                                    <div class="tag-fastion__description">
+                                        <span class="tag-fastion__description--date">MAY 15, 2016</span>
+                                        <span class="tag-fastion__description--comments">3 COMMENTS</span>
+                                    </div>
+                                </div>
+    
+                                <a href="#" class="tag-fastion__link-img">
+                                    <video controls class="tag-fastion__img">
+                                        <source src="./video/NailArtHistory-SusiKenna.mp4">
+                                    </video>
+                                </a>
+                                <div class="tag-fastion__post-content">
+                                    <p class="paragraph">
+                                        More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                                         innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly 
+                                         shot tortoise inside opaquely. Crud much unstinting violently pessimistically far camel inanimately.
+                                    </p>
+                                    <p class="paragraph">
+                                        Coquettish darn pernicious foresaw therefore much amongst lingeringly
+                                         shed much due antagonistically alongside so then more and about turgid
+                                          wrote so stunningly this that much slew.
+                                    </p>
+                                </div>
+    
+                                <div class="tag-fastion__btn">
+                                    <button class="btn tag-fastion__btn-more">
+                                        READ MORE
+                                    </button>
+                                </div>
+
+                            </div>
+
+
+                            <div class="tag-fastion__outfits">
+                                <div class="tag-fastion__header">
+                                    <h3 class="tag-fastion__trademark"><i>In </i>FASTION</h3>
+                                    <h1 class="tag-fastion__tittle">
+                                        Instagram Outfits Recap: Only The Best
+                                    </h1>
+                                    <div class="tag-fastion__description">
+                                        <span class="tag-fastion__description--date">MAY 15, 2016</span>
+                                        <span class="tag-fastion__description--comments">3 COMMENTS</span>
+                                    </div>
+                                </div>
+    
+                                <a href="#" class="tag-fastion__link-img">
+                                    <img src="./image/InstagramOutfitsRecapOnlyTheBest.jpg" alt="" class="tag-fastion__img">
+                                </a>
+                                <div class="tag-fastion__post-content">
+                                    <p class="paragraph">
+                                        More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                                         innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly 
+                                         shot tortoise inside opaquely. Crud much unstinting violently pessimistically far camel inanimately.
+                                    </p>
+                                    <p class="paragraph">
+                                        Coquettish darn pernicious foresaw therefore much amongst lingeringly
+                                         shed much due antagonistically alongside so then more and about turgid
+                                          wrote so stunningly this that much slew.
+                                    </p>
+                                </div>
+    
+                                <div class="tag-fastion__btn">
+                                    <button class="btn tag-fastion__btn-more">
+                                        READ MORE
+                                    </button>
+                                </div>
+
+                            </div>
+
+
+
+
+                            <div class="tag-fastion__outfits">
+                                <div class="tag-fastion__header">
+                                    <h3 class="tag-fastion__trademark"><i>In </i>FASTION</h3>
+                                    <h1 class="tag-fastion__tittle">
+                                        Winter Wear & Great Holiday Outfits
+                                    </h1>
+                                    <div class="tag-fastion__description">
+                                        <span class="tag-fastion__description--date">MAY 15, 2016</span>
+                                        <span class="tag-fastion__description--comments">3 COMMENTS</span>
+                                    </div>
+                                </div>
+    
+                                <a href="#" class="tag-fastion__link-img">
+                                    <img src="./image/WinterWear&GreatHolidayOutfits.webp" alt="" class="tag-fastion__img">
+                                </a>
+                                <div class="tag-fastion__post-content">
+                                    <p class="paragraph">
+                                        More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                                         innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly 
+                                         shot tortoise inside opaquely. Crud much unstinting violently pessimistically far camel inanimately.
+                                    </p>
+                                    <p class="paragraph">
+                                        Coquettish darn pernicious foresaw therefore much amongst lingeringly
+                                         shed much due antagonistically alongside so then more and about turgid
+                                          wrote so stunningly this that much slew.
+                                    </p>
+                                </div>
+    
+                                <div class="tag-fastion__btn">
+                                    <button class="btn tag-fastion__btn-more">
+                                        READ MORE
+                                    </button>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="tag-fastion__outfits">
+                                <div class="tag-fastion__header">
+                                    <h3 class="tag-fastion__trademark"><i>In </i>FASTION</h3>
+                                    <h1 class="tag-fastion__tittle">
+                                        The Zara Items Everyone Will Buy
+                                    </h1>
+                                    <div class="tag-fastion__description">
+                                        <span class="tag-fastion__description--date">MAY 15, 2016</span>
+                                        <span class="tag-fastion__description--comments">3 COMMENTS</span>
+                                    </div>
+                                </div>
+    
+                                <a href="#" class="tag-fastion__link-img">
+                                    <img src="./image/outfit-TheZaraItemsEveryoneWillBuy.jpg" alt="" class="tag-fastion__img">
+                                </a>
+                                <div class="tag-fastion__post-content">
+                                    <p class="paragraph">
+                                        More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                                         innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly 
+                                         shot tortoise inside opaquely. Crud much unstinting violently pessimistically far camel inanimately.
+                                    </p>
+                                    <p class="paragraph">
+                                        Coquettish darn pernicious foresaw therefore much amongst lingeringly
+                                         shed much due antagonistically alongside so then more and about turgid
+                                          wrote so stunningly this that much slew.
+                                    </p>
+                                </div>
+    
+                                <div class="tag-fastion__btn">
+                                    <button class="btn tag-fastion__btn-more">
+                                        READ MORE
+                                    </button>
+                                </div>
+
+                            </div>
+
+
+                            <div class="tag-fastion__outfits">
+                                <div class="tag-fastion__header">
+                                    <h3 class="tag-fastion__trademark"><i>In </i>FASTION</h3>
+                                    <h1 class="tag-fastion__tittle">
+                                        How to Look Cool And Full of Life
+                                    </h1>
+                                    <div class="tag-fastion__description">
+                                        <span class="tag-fastion__description--date">MAY 15, 2016</span>
+                                        <span class="tag-fastion__description--comments">3 COMMENTS</span>
+                                    </div>
+                                </div>
+    
+                                <a href="#" class="tag-fastion__link-img">
+                                    <img src="./image/outfit-HowtoLookCoolAndFullofLife.jpg" alt="" class="tag-fastion__img">
+                                </a>
+                                <div class="tag-fastion__post-content">
+                                    <p class="paragraph">
+                                        More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                                         innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly 
+                                         shot tortoise inside opaquely. Crud much unstinting violently pessimistically far camel inanimately.
+                                    </p>
+                                    <p class="paragraph">
+                                        Coquettish darn pernicious foresaw therefore much amongst lingeringly
+                                         shed much due antagonistically alongside so then more and about turgid
+                                          wrote so stunningly this that much slew.
+                                    </p>
+                                </div>
+    
+                                <div class="tag-fastion__btn">
+                                    <button class="btn tag-fastion__btn-more">
+                                        READ MORE
+                                    </button>
+                                </div>
+
+                            </div>
+
+
+                            <div class="tag-fastion__outfits">
+                                <div class="tag-fastion__header">
+                                    <h3 class="tag-fastion__trademark"><i>In </i>FASTION</h3>
+                                    <h1 class="tag-fastion__tittle">
+                                        Casual Friday at Home With my Dog
+                                    </h1>
+                                    <div class="tag-fastion__description">
+                                        <span class="tag-fastion__description--date">MAY 15, 2016</span>
+                                        <span class="tag-fastion__description--comments">3 COMMENTS</span>
+                                    </div>
+                                </div>
+    
+                                <a href="#" class="tag-fastion__link-img">
+                                    <img src="./image/outfit-CasualFridayatHomeWithmyDog.jpg" alt="" class="tag-fastion__img">
+                                </a>
+                                <div class="tag-fastion__post-content">
+                                    <p class="paragraph">
+                                        More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                                         innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly 
+                                         shot tortoise inside opaquely. Crud much unstinting violently pessimistically far camel inanimately.
+                                    </p>
+                                    <p class="paragraph">
+                                        Coquettish darn pernicious foresaw therefore much amongst lingeringly
+                                         shed much due antagonistically alongside so then more and about turgid
+                                          wrote so stunningly this that much slew.
+                                    </p>
+                                </div>
+    
+                                <div class="tag-fastion__btn">
+                                    <button class="btn tag-fastion__btn-more">
+                                        READ MORE
+                                    </button>
+                                </div>
+
+                            </div>
+
+
+                            <div class="tag-fastion__outfits">
+                                <div class="tag-fastion__header">
+                                    <h3 class="tag-fastion__trademark"><i>In </i>FASTION</h3>
+                                    <h1 class="tag-fastion__tittle">
+                                        Many Ways to Update Your Beauty Bag
+                                    </h1>
+                                    <div class="tag-fastion__description">
+                                        <span class="tag-fastion__description--date">MAY 15, 2016</span>
+                                        <span class="tag-fastion__description--comments">3 COMMENTS</span>
+                                    </div>
+                                </div>
+    
+                                <a href="#" class="tag-fastion__link-img">
+                                    <img src="./image/ManyWaystoUpdateYourBeautyBag.webp" alt="" class="tag-fastion__img">
+                                </a>
+                                <div class="tag-fastion__post-content">
+                                    <p class="paragraph">
+                                        More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                                         innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly 
+                                         shot tortoise inside opaquely. Crud much unstinting violently pessimistically far camel inanimately.
+                                    </p>
+                                    <p class="paragraph">
+                                        Coquettish darn pernicious foresaw therefore much amongst lingeringly
+                                         shed much due antagonistically alongside so then more and about turgid
+                                          wrote so stunningly this that much slew.
+                                    </p>
+                                </div>
+    
+                                <div class="tag-fastion__btn">
+                                    <button class="btn tag-fastion__btn-more">
+                                        READ MORE
+                                    </button>
+                                </div>
+
+                            </div>
+
+
+                            <div class="tag-fastion__outfits">
+                                <div class="tag-fastion__header">
+                                    <h3 class="tag-fastion__trademark"><i>In </i>FASTION</h3>
+                                    <h1 class="tag-fastion__tittle">
+                                        Holy Grail Cologne Must Have For Girls
+                                    </h1>
+                                    <div class="tag-fastion__description">
+                                        <span class="tag-fastion__description--date">MAY 15, 2016</span>
+                                        <span class="tag-fastion__description--comments">3 COMMENTS</span>
+                                    </div>
+                                </div>
+    
+                                <a href="#" class="tag-fastion__link-img">
+                                    <img src="./image/HolyGrailColognMustHaveForGirls.jpg" alt="" class="tag-fastion__img">
+                                </a>
+                                <div class="tag-fastion__post-content">
+                                    <p class="paragraph">
+                                        More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                                         innocuously outside crud mightily rigorous negative one inside gorilla and drew humbly 
+                                         shot tortoise inside opaquely. Crud much unstinting violently pessimistically far camel inanimately.
+                                    </p>
+                                    <p class="paragraph">
+                                        Coquettish darn pernicious foresaw therefore much amongst lingeringly
+                                         shed much due antagonistically alongside so then more and about turgid
+                                          wrote so stunningly this that much slew.
+                                    </p>
+                                </div>
+    
+                                <div class="tag-fastion__btn">
+                                    <button class="btn tag-fastion__btn-more">
+                                        READ MORE
+                                    </button>
+                                </div>
+
+                            </div>
+
+                            
+
+                        </div>
+                        <div class="grid__column-4 about-infomation">
+
+
+                            <div class="about-infomation-section">
+                                <button class="btn about-infomation__about-me">ABOUT</button>
+                                <img class="about-infomation__about-me--img" src="./image/myPicture1.jpg" alt="">
+                                <p class="paragraph about-infomation__about-me--text">I'm Quan, a boy and lover of life. Join me on the
+                                    journey to find latest in fashion.
+                                </p>
+                                <div class="about-infomation__about-me--btn btn">READ MORE</div>
+                                
+                            </div>
+
+
+                            <div class="about-infomation-section">
+                                <button class="btn about-infomation__about-me">CONNECT & FOLLOW</button>
+                                <div class="about-infomation-social">
+                                    <i class="about-infomation__social--icon fa-brands fa-twitter"></i>
+                                    <i class="about-infomation__social--icon fa-brands fa-google-plus-g"></i>
+                                    <i class="about-infomation__social--icon fa-brands fa-instagram"></i>
+                                    <i class="about-infomation__social--icon fa-brands fa-tiktok"></i>
+                                    <i class="about-infomation__social--icon fa-brands fa-github"></i>
+                                    <i class="about-infomation__social--icon fa-brands fa-youtube"></i>
+                                </div>
+                                <div class="about-infomation__feedback">
+                                    <h3 class="about-infomation__feedback--tittle">NEWSLETTER</h3>
+                                    <p class="paragraph about-infomation__feedback--text">Enter your email address below to subscribe to my newsletter</p>
+                                    <input type="text" class="about-infomation__feedback--input" placeholder="Your email address...">
+                                    <button class="about-infomation__feedback--subscribe">SUBSCRIBE</button>
+                                </div>
+                            </div>
+
+                            <div class="about-infomation-section">
+                                <button class="btn about-infomation__about-me">POSTS SLIDER</button>
+                                <img class="about-infomation__poster--img" src="./image/vietnam_cute-girl.jpg" alt="">
+                                <div class="about-infomation__poster--section">
+                                    <h3 class="about-infomation__poster--name">INTERIOR</h3>
+                                    <h1 class="about-infomation__poster--tittle">Holy Grail Cologne Must Have For Girls</h1>
+                                    <span class="about-infomation__poster--date">MAY 15, 2016</span>
+                                </div>
+                            </div>
+
+                            <div class="about-infomation-section">
+                                <button class="btn about-infomation__about-me">LATEST POSTS</button>
+                                <ul class="about-infomation__posts-list--section">
+                                    <li class="about-infomation__posts-item">
+                                        <img src="./image/WinterWear&GreatHolidayOutfits.webp" alt="" class="about-infomation__posts-item--img">
+                                        <div class="about-infomation__posts-item--section">
+                                            <h1 class="about-infomation__posts-item--tittle">Winter Wear & Great Holiday Outfits</h1>
+                                            <span class="about-infomation__posts-item--date-update">MAY 15, 2016</span>
+                                        </div>
+                                    </li>
+                                    <li class="about-infomation__posts-item">
+                                        <img src="./image/LastMinutePartyLookThatLooksGreat.jpg" alt="" class="about-infomation__posts-item--img">
+                                        <div class="about-infomation__posts-item--section">
+                                            <h1 class="about-infomation__posts-item--tittle">Last Minute Party Look That Looks Great</h1>
+                                            <span class="about-infomation__posts-item--date-update">MAY 15, 2016</span>
+                                        </div>
+                                    </li>
+                                    <li class="about-infomation__posts-item">
+                                        <img src="./image/FabulousBagstoGetForTheDateNight.webp" alt="" class="about-infomation__posts-item--img">
+                                        <div class="about-infomation__posts-item--section">
+                                            <h1 class="about-infomation__posts-item--tittle">Fabulous Bags to Get For The Date Night</h1>
+                                            <span class="about-infomation__posts-item--date-update">MAY 15, 2016</span>
+                                        </div>
+                                    </li>
+                                    <li class="about-infomation__posts-item">
+                                        <img src="./image/ComfyArtisticDresstoTryThisSeason.jpg" alt="" class="about-infomation__posts-item--img">
+                                        <div class="about-infomation__posts-item--section">
+                                            <h1 class="about-infomation__posts-item--tittle">Comfy Artistic Dress to Try This Season</h1>
+                                            <span class="about-infomation__posts-item--date-update">MAY 15, 2016</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div class="about-infomation-section">
+                                <button class="btn about-infomation__about-me">INSTAGRAM</button>
+                                <div class="about-infomation__instagram--section">
+                                    <img src="./image/ins1.jpg" alt="" class="about-infomation__instagram--item">
+                                    <img src="./image/ins2.jpg" alt="" class="about-infomation__instagram--item">
+                                    <img src="./image/ins3.jpg" alt="" class="about-infomation__instagram--item">
+                                    <img src="./image/ins4.jpg" alt="" class="about-infomation__instagram--item">
+                                    <img src="./image/ins5.jpg" alt="" class="about-infomation__instagram--item">
+                                    <img src="./image/ins6.jpg" alt="" class="about-infomation__instagram--item">
+                                </div>
+                            </div>
+
+
+                            <div class="about-infomation-section">
+                                <button class="btn about-infomation__about-me">CATEGORIES</button>
+                                <ul class="about-infomation__categories--list">
+                                    <li class="about-infomation__categories--item">Beauty <span class="about-infomation__categories--item-amount">(9)</span></li>
+                                    <li class="about-infomation__categories--item">Fastion <span class="about-infomation__categories--item-amount">(14)</span></li>
+                                    <li class="about-infomation__categories--item">Interior <span class="about-infomation__categories--item-amount">(7)</span></li>
+                                    <li class="about-infomation__categories--item">Outfits <span class="about-infomation__categories--item-amount">(10)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="uper-footer">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-4">
+                            <h1 class="uper-footer__tittle">About Me</h1>
+                            <img src="./image/myPicture1.jpg" alt="my picture" class="uper-footer__img">
+                            <p class="paragraph uper-footer__paragraph">Sed ut in perspiciatis unde omnis iste natus error sit on i tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                        </div>
+                        <div class="grid__column-4">
+                            <h1 class="uper-footer__tittle">Lastest Posts</h1>
+                            <ul class="uper-footer__posts-list--section">
+                                <li class="uper-footer__posts-item">
+                                    <img src="./image/WinterWear&GreatHolidayOutfits.webp" alt="" class="uper-footer__posts-item--img">
+                                    <div class="uper-footer__posts-item--section">
+                                        <h1 class="uper-footer__posts-item--tittle">Winter Wear & Great Holiday Outfits</h1>
+                                        <span class="uper-footer__posts-item--date-update">MAY 15, 2016</span>
+                                    </div>
+                                </li>
+                                <li class="uper-footer__posts-item">
+                                    <img src="./image/LastMinutePartyLookThatLooksGreat.jpg" alt="" class="uper-footer__posts-item--img">
+                                    <div class="uper-footer__posts-item--section">
+                                        <h1 class="uper-footer__posts-item--tittle">Last Minute Party Look That Looks Great</h1>
+                                        <span class="uper-footer__posts-item--date-update">MAY 15, 2016</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-4">
+                            <h1 class="uper-footer__tittle">Popular Posts</h1>
+                            <ul class="uper-footer__posts-list--section">
+                                <li class="uper-footer__posts-item">
+                                    <img src="./image/AGuidetoGettingTheMostComfyLook.jpg" alt="" class="uper-footer__posts-item--img">
+                                    <div class="uper-footer__posts-item--section">
+                                        <h1 class="uper-footer__posts-item--tittle">The Outfits You’ll Wear Everyday</h1>
+                                        <span class="uper-footer__posts-item--date-update">MAY 15, 2016</span>
+                                    </div>
+                                </li>
+                                <li class="uper-footer__posts-item">
+                                    <img src="./image/TheCameraForQuickFashionShoot.webp" alt="" class="uper-footer__posts-item--img">
+                                    <div class="uper-footer__posts-item--section">
+                                        <h1 class="uper-footer__posts-item--tittle">The Camera For Quick Fashion Shoot</h1>
+                                        <span class="uper-footer__posts-item--date-update">MAY 15, 2016</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mid-footer">
+                <div class="mid-footer__btn-section">
+                    <button class="btn mid-footer__btn"><i class="fa-brands fa-instagram"></i> Follow Me!</button>
+                </div>
+                <img src="./image/AGuidetoGettingTheMostComfyLook.jpg" alt="" class="mid-footer__img">
+                <img src="./image/ComfyArtisticDresstoTryThisSeason.jpg" alt="" class="mid-footer__img">
+                <img src="./image/FabulousBagstoGetForTheDateNight.webp" alt="" class="mid-footer__img">
+                <img src="./image/HolyGrailColognMustHaveForGirls.jpg" alt="" class="mid-footer__img">
+                <img src="./image/TheCameraForQuickFashionShoot.webp" alt="" class="mid-footer__img">
+                <img src="./image/InstagramOutfitsRecapOnlyTheBest.jpg" alt="" class="mid-footer__img">
+            </div>
+
+            <div class="lower-footer">
+                <div class="lower-footer__social">
+                    <div class="lower-footer__social--section">
+                        <a href="https://www.facebook.com/quan.lovan.9461/"><i class="lower-footer__social--icon fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Van_Quan_03"><i class="lower-footer__social--icon fa-brands fa-twitter"></i></a>
+                        <a href="email: itquankma@gmail.com"><i class="lower-footer__social--icon fa-brands fa-google-plus-g"></i></a>
+                        <a href="https://www.instagram.com/lovanquan788/"><i class="lower-footer__social--icon fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@quanlc25"><i class="lower-footer__social--icon fa-brands fa-tiktok"></i></a>
+                        <a href="https://github.com/vanquanlc"><i class="lower-footer__social--icon fa-brands fa-github"></i></a>
+                        <a href="https://www.youtube.com/channel/UCptMG9DFfYk2DgxdrHZQUIA"><i class="lower-footer__social--icon fa-brands fa-youtube"></i></a>
+                    </div>
+                   
+                </div>
+                <div class="lower-footer__navbar">
+                    <ul class="lower-footer-list">
+                        <a href=""><li class="lower-footer-item">SHOP</li></a>
+                        <a href=""><li class="lower-footer-item">FEATURES</li></a>
+                        <a href=""><li class="lower-footer-item">OUTFIT</li></a>
+                        <a href=""><li class="lower-footer-item">CONTACT</li></a>
+                    </ul>
+                </div>
+                <div class="lower-footer__copyright">
+                    <span class="paragraph lower-footer__copyright--paragraph">© 2023 THEMESPHERE. DESIGNED BY <a href="" class="lower-footer__copyright--link">QUAN</a></span>
+                </div>
+                <div class="lower-footer__back-top">
+                    <a href="#header" class="lower-footer__back-top--btn">MOVE TOP</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+<script src="./active/main.js"></script>
+</html>
